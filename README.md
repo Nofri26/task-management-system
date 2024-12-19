@@ -9,7 +9,7 @@ Sebelum menginstal aplikasi ini, pastikan Anda sudah menginstal perangkat lunak 
 
 - PHP (versi 8.2 atau lebih baru)
 - Composer (untuk mengelola dependensi PHP)
-- SQLite
+- SQLite / Mysql
 - Node.js
 - Git (untuk meng-clone repositori)
 
