@@ -37,7 +37,7 @@ class AuthenticatedSessionController extends Controller
 
         session()->put('token', $token);
 
-        return redirect()->intended(route('dashboard', absolute: false));
+        return redirect()->intended(route('task-management', absolute: false));
     }
 
     /**

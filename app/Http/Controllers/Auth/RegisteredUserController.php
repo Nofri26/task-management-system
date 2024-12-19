@@ -52,6 +52,6 @@ class RegisteredUserController extends Controller
 
         session()->put('token', $token);
 
-        return redirect(route('dashboard', absolute: false));
+        return redirect(route('task-management', absolute: false));
     }
 }

@@ -15,7 +15,7 @@ Route::get('/', function () {
     ]);
 });
 
-Route::get('/dashboard', [TaskManagementController::class, 'index'])->middleware(['auth:sanctum'])->name('dashboard');
+Route::get('/task-management', [TaskManagementController::class, 'index'])->middleware(['auth:sanctum'])->name('task-management');
 
 Route::middleware('auth')->group(function () {
     Route::get('/profile', [ProfileController::class, 'edit'])->name('profile.edit');

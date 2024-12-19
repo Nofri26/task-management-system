@@ -33,14 +33,14 @@ class UpdateRequest extends FormRequest
     public function messages(): array
     {
         return [
-            'title.required' => 'The title field is required.',
-            'title.string' => 'The title must be a string.',
-            'title.max' => 'The title cannot exceed 255 characters.',
-            'deadline.required' => 'The deadline field is required.',
-            'deadline.date' => 'The deadline must be a valid date.',
-            'deadline.after' => 'The deadline must be a future date.',
-            'status.required' => 'The status field is required.',
-            'status.in' => 'The status must be one of pending, completed, or in-progress.',
+            'title.required' => 'Field judul wajib diisi.',
+            'title.string' => 'Judul harus berupa string.',
+            'title.max' => 'Judul tidak boleh lebih dari 255 karakter.',
+            'deadline.required' => 'Field deadline wajib diisi.',
+            'deadline.date' => 'Deadline harus berupa tanggal yang valid.',
+            'deadline.after' => 'Deadline harus berupa tanggal yang akan datang.',
+            'status.required' => 'Field status wajib diisi.',
+            'status.in' => 'Status harus salah satu dari pending, completed, atau in-progress.',
         ];
     }
 
